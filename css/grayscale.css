@@ -92,12 +92,12 @@
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.3)), color-stop(75%, rgba(22, 22, 22, 0.7)), to(#161616)), url("../img/bg-masthead.jpg");
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../img/bg-masthead.jpg");
+  background: url("../img/oznameni.png");
+  background: url("../img/oznameni.png");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-size: cover;
+  background-size: contain;
 }
 
 .masthead h1 {
@@ -166,58 +166,59 @@
   background-color: #467370 !important;
 }
 
-.about-section {
+.when-section {
   padding-top: 10rem;
-  background: -webkit-gradient(linear, left top, left bottom, from(#161616), color-stop(75%, rgba(22, 22, 22, 0.9)), to(rgba(22, 22, 22, 0.8)));
-  background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(218, 173, 134, 0.5)), color-stop(40%, rgba(218, 173, 134, 0.9)), to(rgba(218, 173, 134, 1)));
+  background: linear-gradient(to bottom, rgba(218, 173, 134, 0.5) 0%, rgba(218, 173, 134, 0.9) 40%, rgba(218, 173, 134, 1) 100%);
 }
 
-.about-section p {
+.when-section p {
   margin-bottom: 5rem;
 }
 
-.projects-section {
+.where-section {
   padding: 10rem 0;
 }
 
-.projects-section .featured-text {
+.where-section .featured-text {
   padding: 2rem;
 }
 
 @media (min-width: 992px) {
-  .projects-section .featured-text {
+  .where-section .featured-text {
     padding: 0 0 0 2rem;
     border-left: 0.5rem solid #64a19d;
   }
 }
 
-.projects-section .project-text {
+.where-section .project-text {
   padding: 3rem;
   font-size: 90%;
 }
 
 @media (min-width: 992px) {
-  .projects-section .project-text {
-    padding: 5rem;
+  .where-section .project-text {
+    padding: 5rem;  
   }
-  .projects-section .project-text hr {
+  .where-section .project-text hr {
     border-color: #64a19d;
     border-width: .25rem;
     width: 30%;
   }
 }
 
-.signup-section {
-  padding: 10rem 0;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../img/bg-signup.jpg");
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/bg-signup.jpg");
+.rsvp-section {
+  padding: 5rem 0;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(218, 173, 134, 0.5)), color-stop(40%, rgba(218, 173, 134, 0.9)), to(rgba(218, 173, 134, 1)));
+  background: linear-gradient(to bottom, rgba(218, 173, 134, 0.5) 0%, rgba(218, 173, 134, 0.9) 40%, rgba(218, 173, 134, 1) 100%);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
 }
 
-.signup-section .form-inline input {
+
+.rsvp-section .form-inline input {
   -webkit-box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   padding: 1.25rem 2rem;
