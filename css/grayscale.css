@@ -176,7 +176,7 @@
 }
 
 .info-section {
-  padding: 7rem;
+  padding: 7rem 0 7rem 0;
 }
 
 @media (min-width: 992px) {
